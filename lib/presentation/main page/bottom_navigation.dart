@@ -1,11 +1,9 @@
 import 'dart:developer';
-
 import 'package:flutter/material.dart';
 import 'package:netflix/core/color/colors.dart';
 
 ValueNotifier<int> indexChangeNotifier = ValueNotifier(0);
-
-class BottomNavBar extends StatelessWidget {
+ class BottomNavBar extends StatelessWidget {
   const BottomNavBar({super.key});
 
   @override

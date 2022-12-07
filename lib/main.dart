@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:netflix/core/color/colors.dart';
 import 'presentation/main page/widgets/main_page_screen.dart';
 
@@ -18,6 +19,7 @@ const MyApp({super.key});
       theme: ThemeData(
         scaffoldBackgroundColor: backgroundColor,
         primarySwatch: Colors.blue,
+        fontFamily: GoogleFonts.montserrat().fontFamily,
         backgroundColor: backgroundColor,
         textTheme: const TextTheme(
           bodyText1: TextStyle(color: Colors.white
