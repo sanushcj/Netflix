@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
 const backgroundColor = Colors.black;
 const rrwhiteColor = Colors.white;
-const rrbuttoncolor = Colors.blue;
+final rrbuttoncolor = Colors.blue[700];
+const rrGreyColor = Colors.grey;

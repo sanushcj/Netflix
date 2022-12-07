@@ -16,7 +16,7 @@ final  _pages = [
   NewandHotScreen(),
   const FastLaughScreen(),
   const SearchScreen(),
-  const DownloadScreen()
+   DownloadScreen()
   
 ];
 
