@@ -23,7 +23,7 @@ class SearchScreen extends StatelessWidget {
             ),
             suffixIcon: const Icon(CupertinoIcons.xmark_circle_fill,color: rrGreyColor,),style: const TextStyle(color: rrwhiteColor),
           ),
-          const SearchIdleWidget()
+          Expanded(child: const SearchIdleWidget())
         ],
       ),
     )));
