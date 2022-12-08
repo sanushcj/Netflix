@@ -3,6 +3,7 @@ import 'package:netflix/core/constants/constants_.dart';
 
 import 'main_title.dart';
 
+// ignore: must_be_immutable
 class MainTileCard extends StatelessWidget {
   MainTileCard({Key? key, required this.title}) : super(key: key);
   String title;

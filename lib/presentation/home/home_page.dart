@@ -1,5 +1,6 @@
 
 import 'package:flutter/material.dart';
+import 'package:netflix/presentation/home/widgets/top_10tile.dart';
 import 'widgets/main_tilecard.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -13,6 +14,7 @@ class HomeScreen extends StatelessWidget {
         children:  [
           MainTileCard(title: 'Realeased In the past'),
           MainTileCard(title: 'Trending Now'),
+          Top10Tile(title: 'Top 10 TV Shows in India Today'),
            MainTileCard(title: 'Tense Dramas'),
             MainTileCard(title: 'South Indian Cinema'),
         ],
