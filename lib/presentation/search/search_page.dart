@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:netflix/core/color/colors.dart';
+import 'package:netflix/presentation/search/widgets/search_idle.dart';
 
 class SearchScreen extends StatelessWidget {
   const SearchScreen({super.key});
@@ -20,8 +21,9 @@ class SearchScreen extends StatelessWidget {
               CupertinoIcons.search,
               color: rrGreyColor,
             ),
-            suffixIcon: const Icon(CupertinoIcons.xmark_circle_fill,color: rrGreyColor,),style: TextStyle(color: rrwhiteColor),
+            suffixIcon: const Icon(CupertinoIcons.xmark_circle_fill,color: rrGreyColor,),style: const TextStyle(color: rrwhiteColor),
           ),
+          const SearchIdleWidget()
         ],
       ),
     )));
