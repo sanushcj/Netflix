@@ -28,9 +28,9 @@ class VideoListItem extends StatelessWidget {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.end,
                 children: [
-                  Padding(
-                    padding: const EdgeInsets.all(10),
-                    child: const CircleAvatar(radius: 25,),
+                  const Padding(
+                    padding: EdgeInsets.all(10),
+                    child: CircleAvatar(radius: 25,),
                   ),
                   RightSideWidgets(iconW: CupertinoIcons.smiley, title: 'LOL'),
                   RightSideWidgets(
