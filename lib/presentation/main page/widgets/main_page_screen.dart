@@ -13,7 +13,7 @@ class MainPage extends StatelessWidget {
 
 final  _pages = [
   const HomeScreen(),
-  NewandHotScreen(),
+  const NewandHotScreen(),
   const FastLaughScreen(),
   const SearchScreen(),
    DownloadScreen()
