@@ -6,8 +6,9 @@ import 'package:netflix/presentation/home/widgets/cuustom_button.dart';
 
 buidComingSoon(context) {
 
-  return ListView.builder(
-    itemBuilder: (context, index) => ComingSoonTile(),
+  return ListView.separated(
+    itemBuilder: (context, index) => const ComingSoonTile(),
+    separatorBuilder: (context, index) => kheight22,
     itemCount: 10,
       
   

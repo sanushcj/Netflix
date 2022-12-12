@@ -12,15 +12,7 @@ class VideoListItem extends StatelessWidget {
       color: Colors.accents[index % Colors.accents.length],
       child: Stack(
         children: [
-          Padding(
-            padding: const EdgeInsets.all(10),
-            child: Align(
-                alignment: Alignment.bottomLeft,
-                child: CircleAvatar(
-                    child: IconButton(
-                        onPressed: () {},
-                        icon: const Icon(CupertinoIcons.volume_off)))),
-          ),
+          Mutesound(),
           Padding(
             padding: const EdgeInsets.all(10),
             child: Align(
@@ -43,6 +35,25 @@ class VideoListItem extends StatelessWidget {
           ),
         ],
       ),
+    );
+  }
+}
+
+class Mutesound extends StatelessWidget {
+  const Mutesound({
+    Key? key,
+  }) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Padding(
+      padding: const EdgeInsets.all(10),
+      child: Align(
+          alignment: Alignment.bottomLeft,
+          child: CircleAvatar(
+              child: IconButton(
+                  onPressed: () {},
+                  icon: const Icon(CupertinoIcons.volume_off)))),
     );
   }
 }
