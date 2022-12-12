@@ -7,4 +7,4 @@ const kheight = SizedBox(height: 12,);
 const kheight22 = SizedBox(height: 22,);
 const kheight30 = SizedBox(height: 30,);
 
-const BaseUrltmdb = "https://api.themoviedb.org/3/";
+const BaseUrltmdb = "https://api.themoviedb.org/3";
